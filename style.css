@@ -1,0 +1,545 @@
+
+
+
+/* Général */
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+    font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6
+
+{
+    font-weight: bold;
+    font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+section
+{
+    padding: 95px 0 80px 0;
+}
+
+section .heading
+{
+   text-align: center;
+   padding-bottom: 40px;
+}
+
+/* MENU */
+
+a.nav-link
+{
+  font-family: 'Amatic SC', cursive, sans-serif;
+    
+}
+
+.navbar 
+  {
+    background-color: #000;
+    font-size: 22px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+   }
+.nav-pills .nav-link
+{
+    color: #fff !important;
+    text-align: center;
+}
+.nav-pills .nav-link.active,  .nav-pills .nav-link:hover
+{
+    color: #00FFF3 !important;
+    padding: 6px 0px;
+    background-color: transparent!important;
+    transition: all 0.6s ease-in 0s;
+    
+}
+.navbar-toggler{
+    color: #fff !important;
+    border-style: none;
+}
+
+/* WILD CIRCUS LOGO*/
+
+.apper
+{
+    
+    font-family: 'Amatic SC', cursive, sans-serif;
+    
+}
+
+.apper h2
+{
+    font-weight: normal;
+    font-size: 40px;
+    padding: 15px 0 15px 0;
+}
+
+.circus
+{
+   color: #00FFF3;
+}
+
+.or
+{
+    color: #fff
+}
+
+.wild
+{
+    color: #fff;
+}
+
+
+/*header*/
+.backgroundimg
+{
+   background-image: url(https://i.postimg.cc/Yq4mhzWw/acropped-2000-730-777995.jpg);
+   background-size: cover;
+   background-position: center center;
+   background-repeat: no-repeat;
+   margin: 0;
+   width: 100%;
+   height: 80vh;
+   padding-top: 60px;
+ 
+}
+
+.backgroundimg h1
+{
+    color: #fff;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+
+/*performances*/
+
+.performances
+{
+    padding-top: 5%; 
+}
+
+
+.single-performances
+{
+    background-color: black;
+    margin-bottom: 10px;
+    
+}
+
+.single-performances:hover .desc
+{
+    cursor: pointer;
+    opacity: 1;
+    transform: rotateY(0deg) scale(1, 1);
+}
+
+.img-area
+{
+   overflow: hidden;
+   position: relative;
+}
+
+.img-area:hover img
+{
+    transform: scale(1.2);
+}
+
+.img-area img
+{
+    width: 100%;
+    transition: all 0.4s ease 0s;
+}
+
+@media (max-width: 768px)
+{
+   .img-area img
+    {
+       display: inline-block;
+       border: 2px solid #fff;
+    }
+}
+
+
+.img-area .desc
+{
+   background-color: rgba(0,0,0,0.7); 
+   position: absolute;
+   text-align: center;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+    transform: rotateY(180deg) scale(0.5, 0.5);
+    font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+.img-area .desc ul
+{
+    text-align: center;
+    position: relative;
+    top: 175px;
+    
+}
+
+.img-area .desc ul li p
+{
+    color: #fff;
+    display: block;
+    font-size: 28px;
+    height: 40px;
+    padding-right: 10px;
+    padding-left: 10px;
+    line-height: 25px;
+    text-align: center;
+}
+
+.img-area .desc ul li p:hover
+{
+   color: #c7c7c7;
+   
+}
+
+.img-text
+{
+    padding: 4%;
+    color: #fff;
+    text-align: center;
+}
+
+.img-text h4
+{
+    margin: 0 0 5px;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-style: italic;
+    font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+div.card
+{
+    border: none;
+}
+
+.blue-divider
+{
+    width: 100px;
+    height: 2px;
+    background: #00FFF3;
+    margin: 0 auto;
+}
+
+.perftitle
+{
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+.title-divider
+{
+    width: 240px;
+    height: 3px;
+    background: #00FFF3;
+    margin: 0 auto;
+    
+}
+
+
+/*aboutus*/
+
+
+.aboutus
+{
+    background: #000;
+}
+
+.aboutus h2
+{
+    font-weight: normal;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+
+.about-divider
+{
+   width: 320px;
+   height: 3px;
+   background: #00fff3;
+   margin: 0 auto; 
+   float: left;
+}
+
+#about-title
+{
+    margin-left: 0px; 
+}
+
+.about-us-box {
+    margin-top: 100px;
+}
+ 
+.about-us-box-text {
+    padding-right: 30px;
+    text-align: left;
+}
+ 
+.aboutus p 
+{
+    color: #fff;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Amatic SC', cursive, sans-serif;
+}
+
+.about-us-box-img img {
+    width: 140%;
+    padding-right: 80px;
+}
+
+
+/*price*/
+
+.price-divider
+{
+    width: 190px;
+    height: 3px;
+    background: #00FFF3;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+#price
+{
+    margin: 0 30px 0 30px;
+}
+
+@font-face {
+    font-family: SegoeUI;
+    src:
+        local("Segoe UI"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
+        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
+    font-weight: 400;
+}
+
+
+
+td, th
+{
+   font-family: SegoeUI; 
+}
+
+th
+{
+    font-weight: 100;
+    
+}
+
+#price tr:hover
+{
+  background: #00fff3;  
+}
+
+a.button-ticket
+{
+    background: #00fff3;
+    font-size: 20px;
+    color: white;
+    display: block;
+    margin: auto;
+    width: 120px;
+    font-family: SegoeUI;
+    transition: all 0.3s ease-in 0s;
+    border: 1px solid #00fff3;
+}
+
+a.button-ticket:hover
+{
+    color: #fff;
+    font-family: SegoeUI; 
+    background: #212429;
+    border: 1px solid #00fff3;
+}
+
+/*form*/
+
+.form
+{
+    font-family: "lato", sans-serif;
+    margin: 70px 0px;
+    background: #00fff3;
+    margin-bottom: 0;
+}
+
+.form-divider
+{
+    width: 180px;
+    height: 3px;
+    background: #fff;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.heading
+{
+    text-align: center;
+    
+}
+
+.form h2
+{
+    
+    font-weight: bold;
+    color: #fff;
+    padding-top: 20px;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    
+}
+
+#contact-form
+{
+    font-size: 20px;
+    background: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+
+.blue
+{
+   color: #00fff3; 
+}
+
+.form-control
+{
+    height: 50px;
+    font-size: 18px;
+}
+
+label
+{
+    font-weight: bold;
+}
+
+p.blue
+{
+   font-weight: bold;
+   color: #00fff3;
+}
+
+p.comments
+{
+    color: #d82c2e;
+    font-style: italic;
+    font-size: 18px;
+    height: 25px;
+    
+}
+
+input.button1
+{
+    margin: 40px auto 0;
+    display: block;
+    cursor: pointer;
+}
+
+
+.button1
+{
+    border: 1px solid grey;
+    background: #00fff3;
+    color: #fff;
+    width: 100%;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px;
+    border-radius: 5px;
+    transition: all 0.3s ease-in 0s;
+}
+
+.button1:hover
+{
+    background: #333;
+    border-color: #00fff3;
+}
+
+
+textarea.form-control
+{
+    height: auto;
+}
+
+
+
+/*FOOTER*/
+
+
+footer
+{
+    background: #333;
+    padding: 20px 0 40px;
+}
+
+footer .fa-chevron-up
+{
+   color: #00fff3;
+   font-size: 30px;
+    margin: 20px;
+    height: 30px;
+}
+
+
+footer .fa-chevron-up:hover
+{
+    color: #fff;
+    font-size: 33px;
+}
+
+footer h5
+{
+    color: #fff;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: "lato", sans-serif;
+}
+
+.header-img
+{
+    padding-top: 20px;
+    padding-left: 40px;
+    
+}
+
+.header-img img
+{
+    margin-right: 30px;
+    
+}
+
+.header-link a
+{
+  margin-right: 10px;
+  color: #00fff3;
+}
+
+.header-link a:hover
+{
+  color: white;
+}

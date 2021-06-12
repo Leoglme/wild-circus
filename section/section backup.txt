@@ -1,0 +1,114 @@
+HTML///////////////////////
+
+ <section id="possible">
+         <div class=" container-fluid col-lg-4 col-xl-4 col-md-12 performances">
+            <article id="article-1">
+                <div class="overlay">
+                    <h4>Partez en famille</h4>
+                    <p><small>Offrez le meilleur à ceux que<br>vous aimez et partagez des moments fabuleux !</small></p>
+               </div>
+            </article>
+             <article id="article-2">
+                <div class="overlay">
+                    <h4>Partez en famille</h4>
+                    <p><small>Offrez le meilleur à ceux que<br>vous aimez et partagez des moments fabuleux !</small></p>
+               </div>
+            </article>
+             <article id="article-2">
+                <div class="overlay">
+                    <h4>Partez en famille</h4>
+                    <p><small>Offrez le meilleur à ceux que<br>vous aimez et partagez des moments fabuleux !</small></p>
+               </div>
+            </article>
+            
+        </div>
+    </section>
+
+
+
+
+
+css///////////////////////////
+
+
+/*performances*/
+.performances
+{
+    width: 940px;
+    margin:0 auto;
+    padding:0 10px;
+}
+#possible 
+{
+   
+   margin-top:250px;
+   text-align: center;
+   background-color: #efefef;
+   background-size: 200px 100px;
+   padding-top: 60px;
+   padding-bottom: 320px;
+   padding-left:20px;
+   margin-right: 0px;
+}
+
+#possible article
+{
+    width: 460px;
+    height: 270px;
+    float: left;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+#article-1
+{
+   background: url('Maquette/article-image-1.jpg');
+   margin-right: 20px;
+    
+   
+}
+
+#article-2
+{
+    background: url('Maquette/article-image-2.jpg');
+    
+}
+
+
+.overlay
+{
+    float: left;
+    margin-right: 30px;
+    background: rgba(255,255,255,0.90);
+    height: 100%;
+    width: 190px;
+    padding: 20px;
+    border-radius:10px 0 0 10px;
+    box-sizing: border-box;
+    
+    
+}
+
+
+#possible h4
+{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+  font-size:24px;
+  color: #444;
+}
+
+#possible p
+{
+  font-style: italic;
+  line-height: 20px; 
+  color:#777; 
+}
+
+*, ::after, ::before {
+    box-sizing:content-box;
+}
+
+
