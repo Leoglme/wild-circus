@@ -1,1 +1,1 @@
-wild-circus
+Projet individuel from scratch de 2 semaines, l'objectif était de créer un site sur le thème du cirque afin de rentrer dans une formation à la wild code school Nantes, j'ai finalement choisis de faire partie de la web@cadémie à Epitech Rennes. Ce projet à été réalisé avec les languages/techno Html/css, bootstrap et Javascript.
